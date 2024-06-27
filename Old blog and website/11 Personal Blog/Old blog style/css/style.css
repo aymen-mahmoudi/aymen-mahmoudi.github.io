@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image: url(background.jpg); */
+  background-color: antiquewhite;
+  background-size: auto;
+  background-position: center;
+  font-family: sans-serif;
+}
+.logo{
+  text-decoration: none;
+  color: rgb(243, 174, 25);
+  /* text-transform: uppercase; */
+  font-family:  'Verdana';
+  font-weight: 700;
+  /* font-size: 1.8em; */
+  font-size: 1.5vw;
+  padding-right: 750px;
+}
+
+.menu-bar {
+  background: black;
+  text-align: right;
+}
+
+
+
+
+/* Menu navigation */
+
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: white;
+}
+
+.menu-bar ul li {
+  width: 160px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.active, .menu-bar ul li:hover  {
+  background-color: orange;
+  border-radius: 3px;
+}
+
+.sub-menu {
+  display: none;
+}
+
+.menu-bar ul li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  background: black;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu ul {
+  display: block;
+  margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted white;
+  border-radius: 0;
+  text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu ul li:last-child{
+  border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu ul li a:hover {
+
+  color: #2bab0d;
+}
+
+
+/* Menu navigation - END */

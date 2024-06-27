@@ -1,0 +1,168 @@
+/* Import External Fonts From Poppin Google*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Edu+SA+Beginner&family=Poppins:ital,wght@0,800;1,200&family=Source+Code+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Edu+SA+Beginner&family=Poppins:ital,wght@0,800;1,200&family=Source+Code+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Edu+SA+Beginner&family=Indie+Flower&family=Poppins:ital,wght@0,800;1,200&family=Source+Code+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Edu+SA+Beginner&family=Indie+Flower&family=Poppins:ital,wght@0,800;1,200&family=Rubik+Vinyl&family=Source+Code+Pro:wght@600&display=swap');
+/* Changes apply to hole page*/
+*{
+    color:black;
+    font-family:  "Twemoji Country Flags",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color:#fcf8df ;
+    font-family: "Twemoji Country Flags", "Helvetica", "Comic Sans", serif;
+  }
+
+header{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.logo{
+    text-decoration: none;
+    color: rgb(243, 174, 25);
+    /* text-transform: uppercase; */
+    font-family:  'Verdana';
+    font-weight: 700;
+    /* font-size: 1.8em; */
+    font-size: 1.5vw;
+}
+
+.navigation a{
+    text-decoration:none;
+    color: white;
+    font-weight: 500;
+    /* font-size: 1.8em; */
+    font-size: 1.6vw;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 10px;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navigation a:hover{
+    /* background-color: rgb(59, 57, 57); */
+    color: gray;
+}
+
+section{
+    padding:100px 200px;
+}
+
+.main{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    /* background:url("../resources/images/homepage.jpeg") no-repeat; */
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2{
+    color:white;
+    font-weight: 200;
+    font-size: 1.4em;   
+}
+
+.main h2 span{
+    display:inline-block;
+    margin: top 10px;color:aliceblue;
+    font-weight: 200;
+    font-size: 1.7em;
+}
+
+.life h1{
+    font-weight: 600;
+    font-size: 3em;
+}
+
+/* .life p{
+    font-family: 'Andika', sans-serif;
+    font-size: 1.7em;
+} */
+
+p{
+    font-family: 'Andika', sans-serif;
+    font-size: 16px;
+}
+
+.container_index {
+    display: flex;
+    align-items: center;
+    justify-content: center
+    }
+
+.container_skills {
+    display: flex;
+    align-items:left;
+    justify-content: left
+    }
+
+
+.image_index {
+    flex-basis: 8% ;
+    padding-left: 10px;
+    }
+.text_index {
+    font-family: 'Andika', sans-serif;
+    padding-left: 15px;
+    }
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+    }
+
+
+.image {
+    flex-basis: 8% ;
+    padding-left: 10px;
+    }
+.text {
+    font-family: 'Andika', sans-serif;
+    padding-left: 2px;
+    }
+
+.skill_rating{
+    font-family: 'Andika', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    color:rgb(136, 128, 128);
+    
+}
+
+.citation{
+    font-family: 'Andika', sans-serif;
+    font-size: 16px;
+    /* font-weight: bold; */
+    font-style: italic;
+    color:rgb(136, 128, 128);
+    
+}
+
