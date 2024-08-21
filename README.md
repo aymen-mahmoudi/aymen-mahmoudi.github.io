@@ -1,4 +1,4 @@
-# Template for a blog/Personal website
+# Html-text-Compressor
 
 ## Description
 This tool permits the reduction of the size of the HTML file by saving space in the HTML file via some processes like removing the text line breaks, removing tab spaces, etc.
